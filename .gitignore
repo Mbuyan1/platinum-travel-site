@@ -1,0 +1,4 @@
+node-modules/
+thumbs.db
+*.log
+.cache
