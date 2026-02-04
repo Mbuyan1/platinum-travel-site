@@ -8,8 +8,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,22 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Mbuyan1/platinum-travel-site/issues"
   },
-  "homepage": "https://github.com/Mbuyan1/platinum-travel-site#readme"
+  "homepage": "https://github.com/Mbuyan1/platinum-travel-site#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.6",
+    "postcss-import": "^16.1.1",
+    "postcss-loader": "^8.2.0",
+    "postcss-mixins": "^12.1.2",
+    "postcss-nested": "^7.0.2",
+    "postcss-simple-vars": "^7.0.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  }
 }
