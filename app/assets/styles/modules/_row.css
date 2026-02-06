@@ -1,12 +1,17 @@
 .row{
     @mixin clearfix{};
     &--gutters > div{
-        padding-right: 65px;
-      
+        padding-right: 65px; 
     }
-    
     &--gutters{
         margin-right: -65px;
+    }
+
+    &--gutters-large > div{
+        padding-right: 120px; 
+    }
+     &--gutters-large{
+        margin-right: -120px;
     }
 
      &__b-margin-untill-medium{
@@ -25,6 +30,11 @@
     }
     &__medium-4--larger{
         width: 37%;
+    }
+    &__medium-6{
+            
+        float: left;
+        width: 50%;
     }
     &__mediun-8{
         float: left;
