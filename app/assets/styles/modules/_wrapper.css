@@ -5,8 +5,10 @@
     max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     &--medium{
         max-width: 976px;
+    
     }
 
 &--b-margin{
@@ -14,6 +16,14 @@
     @mixin atSmall{
     margin-bottom: 4rem;
 
+    }
+}
+&--no-padding-untill-medium{
+    padding-left: 0;
+    padding-right: 0;
+    @mixin atMedium{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 .wrapper{

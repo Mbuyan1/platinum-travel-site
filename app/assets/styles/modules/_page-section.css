@@ -11,4 +11,13 @@
         color: white;
     
     }
+
+    &--testimonial{
+        background-color: #e0e6ef;
+        @mixin atMedium{
+          background: url('/app/assets/images/testimonials-bg.jpg') no-repeat top 
+        center/cover ;
+        }
+        
+    }
 }
